@@ -4,6 +4,9 @@
   "description": "Starter template for node.js back-end with typescript, jest, eslint, prettier, & docker",
   "main": "dist/index",
   "author": "codewaseem@gmail.com",
+  "engines": {
+    "node": ">=14"
+  },
   "license": "MIT",
   "scripts": {
     "run-ts-file": "ts-node  -r tsconfig-paths/register --files ",
@@ -13,12 +16,15 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
     "@zerollup/ts-transform-paths": "^1.7.18",
     "del-cli": "^3.0.1",
+    "eslint": "^7.23.0",
     "ts-node": "^9.1.1",
     "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.3",
     "tsconfig-paths": "^3.9.0",
-    "ttypescript": "^1.5.12"
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.2.3"
   }
 }
