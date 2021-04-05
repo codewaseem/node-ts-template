@@ -17,7 +17,8 @@
     "check:ts": "tsc --noEmit",
     "fix:lint": "eslint --ignore-path .gitignore . --fix",
     "fix:format": "prettier --ignore-path .gitignore --write ./",
-    "validate": "run-p check:*"
+    "validate": "run-p check:*",
+    "prepare": "husky install"
   },
   "dependencies": {},
   "devDependencies": {
