@@ -47,7 +47,10 @@
     "*.{js,jsx,ts,tsx,json,html,css}": [
       "yarn fix:format",
       "yarn fix:lint",
+      "yarn check:lint",
+      "yarn check:format",
       "git add"
-    ]
+    ],
+    "*.{ts,tsx,d.ts}": "yarn check:ts"
   }
 }
