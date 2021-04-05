@@ -1,0 +1,24 @@
+{
+  "name": "node-starter-template",
+  "version": "0.0.1",
+  "description": "Starter template for node.js back-end with typescript, jest, eslint, prettier, & docker",
+  "main": "dist/index",
+  "author": "codewaseem@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "run-ts-file": "ts-node  -r tsconfig-paths/register --files ",
+    "dev": "tsnd  -r tsconfig-paths/register --clear --files src/index",
+    "compile": "yarn del dist && yarn ttsc -b"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@zerollup/ts-transform-paths": "^1.7.18",
+    "del-cli": "^3.0.1",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3",
+    "tsconfig-paths": "^3.9.0",
+    "ttypescript": "^1.5.12"
+  }
+}
