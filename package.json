@@ -11,7 +11,9 @@
   "scripts": {
     "run-ts-file": "ts-node  -r tsconfig-paths/register --files ",
     "dev": "tsnd  -r tsconfig-paths/register --clear --files src/index",
-    "compile": "yarn del dist && yarn ttsc -b"
+    "compile": "yarn del dist && yarn ttsc -b",
+    "check:lint": "eslint --ignore-path .gitignore .",
+    "fix:lint": "eslint --ignore-path .gitignore . --fix"
   },
   "dependencies": {},
   "devDependencies": {
