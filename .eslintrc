@@ -1,12 +1,13 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["no-secrets", "@typescript-eslint"],
+  "plugins": ["no-secrets", "@typescript-eslint", "prettier"],
   "extends": [
     "plugin:jsonc/base",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   "rules": {
     "no-secrets/no-secrets": "error"

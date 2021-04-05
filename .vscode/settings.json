@@ -1,4 +1,8 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 80,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -6,6 +10,6 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/node_modules": true,
-    "**/dist": true,
+    "**/dist": true
   }
 }
