@@ -1,3 +1,3 @@
-export function printHello() {
+export function printHello(): void {
   console.log("Hello, World!");
 }
