@@ -1,12 +1,15 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["no-secrets", "@typescript-eslint"],
   "extends": [
+    "plugin:jsonc/base",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
-  ]
+  ],
+  "rules": {
+    "no-secrets/no-secrets": "error"
+  },
+  "ignorePatterns": ["tsconfig.json"]
 }
