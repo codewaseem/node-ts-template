@@ -10,8 +10,7 @@
     "prettier"
   ],
   "rules": {
-    "no-secrets/no-secrets": "error",
-    "no-console": "error"
+    "no-secrets/no-secrets": "error"
   },
   "ignorePatterns": ["tsconfig.json"]
 }
