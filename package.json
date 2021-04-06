@@ -23,7 +23,9 @@
     "fix": "yarn fix:format && yarn fix:lint",
     "prepare": "husky install"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",

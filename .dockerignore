@@ -1,0 +1,5 @@
+.husky
+.vscode
+.git
+node_modules
+dist
