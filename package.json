@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "run-ts-file": "ts-node  -r tsconfig-paths/register --files ",
-    "dev": "tsnd  -r tsconfig-paths/register --clear --files src/index",
+    "dev": "tsnd  -r tsconfig-paths/register --clear --respawn src/index",
     "compile": "del dist && ttsc -b",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watchAll --runInBand",
