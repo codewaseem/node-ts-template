@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  node_ts_app:
+    build:
+      target: deps
+    container_name: node_ts_app_dev
+    command: "yarn dev"
+    volumes:
+      - ./:/app/
